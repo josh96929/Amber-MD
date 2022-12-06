@@ -1,0 +1,30 @@
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_1.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_2.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_3.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_4.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_5.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_6.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_7.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_8.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_9.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_10.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_11.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_12.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_13.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_14.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_15.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_16.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_17.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_18.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_19.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_20.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_21.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_22.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_23.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_24.nc
+trajin /mnt/gpfs2_4m/scratch/jrwerk2//out/_25.nc
+strip :WAT
+strip :Na+
+strip :Cl-
+autoimage
+secstruct :126-149 out dssp_.gnu
