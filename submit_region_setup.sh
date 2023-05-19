@@ -9,7 +9,7 @@
 #SBATCH --partition=SKY32M192_L         # name of the partition
 
 #SBATCH --mail-type=ALL                         # send email on start/end
-#SBATCH --mail-user=jrwerk2@g.uky.edu           # where to send email
+#SBATCH --mail-user=           # where to send email
 #SBATCH --account=col_               # name of account to run und
 
 
