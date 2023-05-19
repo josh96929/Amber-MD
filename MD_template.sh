@@ -21,7 +21,7 @@ for (( i = 0; i <= $j; i++ )) do
 #SBATCH --nodes=1
 #SBATCH -e slurm-%j.err     # Error file for this job.
 #SBATCH -o slurm-%j.out     # Output file for this job.
-#SBATCH -A col_lyuan3_uksr  # Project allocation account name (REQUIRED)
+#SBATCH -A col_  # Project allocation account name (REQUIRED)
 
 module load spack/0.14.2-1168-20f2a6c
 module load ccs/amber/20-cpu-gpu-gcc
