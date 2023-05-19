@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH -e slurm-%j.err     # Error file for this job.
 #SBATCH -o slurm-%j.out     # Output file for this job.
-#SBATCH -A col_lyuan3_uksr  # Project allocation account name (REQUIRED)
+#SBATCH -A col_  # Project allocation account name (REQUIRED)
 
 echo -e "start dssp""\n"
 date
