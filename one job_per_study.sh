@@ -17,8 +17,8 @@ while IFS=',' read -r study_name total_residues chainA chainB chainA_name chainB
 #SBATCH --partition=SKY32M192_L         # name of the partition
 
 #SBATCH --mail-type=ALL                         # send email on start/end
-#SBATCH --mail-user=jrwerk2@g.uky.edu           # where to send email
-#SBATCH --account=col_lyuan3_uksr               # name of account to run under
+#SBATCH --mail-user=           # where to send email
+#SBATCH --account=col_               # name of account to run under
 
 
 $SCRATCH/scripts_MMPBSA/mmpbsa_region.sh $CODE_NAME $SCRATCH/scripts_MMPBSA/${study_name}.csv
